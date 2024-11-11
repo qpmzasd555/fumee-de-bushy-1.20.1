@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "fumee-de-bushy",
+	"version": "${version}",
+	"name": "Fumée de Bushy",
+	"description": "Bring tobacco into Minecraft!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/fumee-de-bushy/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.mrbushy.fumee.FumeeDeBushy"
+		],
+		"client": [
+			"me.mrbushy.fumee.FumeeDeBushyClient"
+		],
+		"fabric-datagen": [
+			"me.mrbushy.fumee.FumeeDeBushyDataGenerator"
+		]
+	},
+	"mixins": [
+		"fumee-de-bushy.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
