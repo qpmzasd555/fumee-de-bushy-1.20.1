@@ -1,5 +1,7 @@
 package me.mrbushy.fumee;
 
+import me.mrbushy.fumee.item.ModItemGroups;
+import me.mrbushy.fumee.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +13,9 @@ public class FumeeDeBushy implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Smoking is harmful, care of yourself!");
+
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }

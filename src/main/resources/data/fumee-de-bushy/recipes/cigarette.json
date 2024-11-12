@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    "T  ",
+    " G ",
+    "  P"
+  ],
+  "key": {
+    "T": {
+      "item": "fumee-de-bushy:tobacco"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "fumee-de-bushy:cigarette"
+  }
+}

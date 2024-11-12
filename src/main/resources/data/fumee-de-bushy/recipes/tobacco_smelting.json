@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "ingredients",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "tobacco",
+  "ingredient": {
+    "item": "minecraft:grass"
+  },
+  "result": "fumee-de-bushy:tobacco"
+}
