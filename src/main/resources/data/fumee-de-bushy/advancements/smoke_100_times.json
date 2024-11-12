@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.fumee-de-bushy.smoke_100_times.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.fumee-de-bushy.smoke_100_times.description1"
+      },
+      {
+        "translate": "advancements.fumee-de-bushy.smoke_100_times.description2"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "fumee-de-bushy:craft_cigarette",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,5 +1,6 @@
 package me.mrbushy.fumee;
 
+import me.mrbushy.fumee.advancements.AdvancementHandler;
 import me.mrbushy.fumee.item.ModItemGroups;
 import me.mrbushy.fumee.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -17,5 +18,7 @@ public class FumeeDeBushy implements ModInitializer {
 
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+
+		AdvancementHandler.register();
 	}
 }

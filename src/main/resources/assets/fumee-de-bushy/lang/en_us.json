@@ -2,5 +2,13 @@
   "item.fumee-de-bushy.tobacco": "Tobacco",
   "item.fumee-de-bushy.cigarette": "Cigarette",
 
-  "itemgroup.tobacco": "Fumée de Bushy"
+  "itemgroup.tobacco": "Fumée de Bushy",
+
+  "advancements.fumee-de-bushy.craft_cigarette.title": "Can't Get Enough, Huh?",
+  "advancements.fumee-de-bushy.craft_cigarette.description1": "Craft your first cigarette",
+  "advancements.fumee-de-bushy.craft_cigarette.description2": "\n§oBecause why settle for just one bad habit when you can have a whole pack?",
+
+  "advancements.fumee-de-bushy.smoke_100_times.title": "Lung Cancer",
+  "advancements.fumee-de-bushy.smoke_100_times.description1": "Take 100 puffs",
+  "advancements.fumee-de-bushy.smoke_100_times.description2": "\n§oCongratulations! You've officially turned your lungs into a smokehouse. BBQ anyone?"
 }

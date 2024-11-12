@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumee-de-bushy:cigarette"
+    },
+    "title": {
+      "translate": "advancements.fumee-de-bushy.craft_cigarette.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.fumee-de-bushy.craft_cigarette.description1"
+      },
+      {
+        "translate": "advancements.fumee-de-bushy.craft_cigarette.description2"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "fumee-de-bushy:cigarette"
+      }
+    }
+  }
+}

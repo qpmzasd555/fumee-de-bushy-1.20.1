@@ -1,4 +1,14 @@
 {
   "item.fumee-de-bushy.tobacco": "Табак",
-  "item.fumee-de-bushy.cigarette": "Сигарета"
+  "item.fumee-de-bushy.cigarette": "Сигарета",
+
+  "itemgroup.tobacco": "Fumée de Bushy",
+
+  "advancements.fumee-de-bushy.craft_cigarette.title": "Неймётся, а?",
+  "advancements.fumee-de-bushy.craft_cigarette.description1": "Создайте сигарету в первый раз",
+  "advancements.fumee-de-bushy.craft_cigarette.description2": "\n§oПотому что зачем довольствоваться одной плохой привычкой, когда можно собрать целую коллекцию?",
+
+  "advancements.fumee-de-bushy.smoke_100_times.title": "Рак лёгких",
+  "advancements.fumee-de-bushy.smoke_100_times.description1": "Сделайте 100 затяжек",
+  "advancements.fumee-de-bushy.smoke_100_times.description2": "\n§oПоздравляем! Вы официально превратили свои легкие в коптильню. Кто-нибудь хочет барбекю?"
 }

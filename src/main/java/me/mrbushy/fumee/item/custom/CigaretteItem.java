@@ -5,6 +5,8 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.particle.ParticleTypes;
+import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.stat.Stats;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
@@ -43,6 +45,16 @@ public class CigaretteItem extends Item {
 
             user.getStackInHand(hand).damage(1, user,
                     playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
+
+            for (int i = 0; i < 5; i++) {
+                world.addParticle(ParticleTypes.CAMPFIRE_COSY_SMOKE,
+                        user.getEyePos().getX() + (Math.random() - 0.5) * 0.9,
+                        user.getEyePos().getY() + (Math.random() - 0.5) * 0.9,
+                        user.getEyePos().getZ() + (Math.random() - 0.5) * 0.9,
+                        user.getRotationVec(1.0F).x / 7,
+                        user.getRotationVec(1.0F).y / 7,
+                        user.getRotationVec(1.0F).z / 7);
+            }
 
             return TypedActionResult.consume(itemStack);
         } else {
