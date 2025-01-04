@@ -1,26 +1,28 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fumee-de-bushy:item/cigarette"
+    "layer0": "fumee-de-bushy:item/4"
   },
   "display": {
     "thirdperson_righthand": {
       "rotation": [ 0, 0, 0 ],
       "translation": [ 0, 3, 1 ],
-      "scale": [ 0.55, 0.55, 0.55 ]
+      "scale": [ 0.25, 0.25, 0.25 ]
     },
     "thirdperson_lefthand": {
       "rotation": [ 0, 180, 0 ],
       "translation": [ 0, 3, 1 ],
-      "scale": [ 0.55, 0.55, 0.55 ]
+      "scale": [ 0.25, 0.25, 0.25 ]
     },
     "firstperson_righthand": {
       "rotation": [ 0, 90, -45 ],
-      "translation": [ 1.13, 0, 1.13 ]
+      "translation": [ 1.13, 2, 1.13 ],
+      "scale": [ 0.75, 0.75, 0.75 ]
     },
     "firstperson_lefthand": {
       "rotation": [ 0, -90, 45 ],
-      "translation": [ 1.13, 0, 1.13 ]
+      "translation": [ 1.13, 2, 1.13 ],
+      "scale": [ 0.75, 0.75, 0.75 ]
     }
   },
   "overrides": [
@@ -29,13 +31,21 @@
         "damaged": 1,
         "damage": 0.125
       },
-      "model": "fumee-de-bushy:item/cigarette1"
+      "model": "fumee-de-bushy:item/cigarette3"
     },
     {
       "predicate": {
-        "tooting": 1
+        "damaged": 1,
+        "damage": 0.5
       },
-      "model": "fumee-de-bushy:item/tooting_cigarette"
+      "model": "fumee-de-bushy:item/cigarette2"
+    },
+    {
+      "predicate": {
+        "damaged": 1,
+        "damage": 0.875
+      },
+      "model": "fumee-de-bushy:item/cigarette1"
     }
   ]
 }

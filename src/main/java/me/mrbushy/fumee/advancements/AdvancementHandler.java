@@ -5,7 +5,6 @@ import me.mrbushy.fumee.item.ModItems;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.minecraft.advancement.Advancement;
 import net.minecraft.advancement.AdvancementProgress;
-import net.minecraft.item.Items;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.stat.Stat;
